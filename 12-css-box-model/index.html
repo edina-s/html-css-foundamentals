@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Box Model</title>
+
+    <style>
+        #first{
+            /* width: 50%;  sirina je 50 posto stramoce, i ona se sanjuje oz.povecava u odnosu na promjenu stranice da uvijek zauzima 50%*/
+            border-style:solid /*double dotted dashed*/ ; /* gornja desna donja lijeva*/
+            border-width: 16px; /*debljina okvira*/
+            /*border-color: rgb(26, 94, 240) rgb(76, 149, 76) rgb(185, 90, 90) slateblue;
+             1. sve iste
+               2. gornja i donja 1, lijeva i desna 2
+               3. gornja 1, donja 2, lijeva i desna 3*/
+            border-radius: 16px; 
+        }
+        #second{
+            border: 4px solid blue;
+            padding: 30px; /*udaljenost teksta od okvira(unutrasnji)*/
+            margin: 100px; /*spoljasnji razmak*/
+        }
+        #third{
+            width: 50%;
+            border-style: ridge;
+            background-image: url(11.jpg) ; /*kako podesiti velicinu slike*/
+        }
+        #fourth{
+            border: 4px solid green;
+            padding: 30px;
+            margin: auto;
+            width: 400px;
+        }
+        .one{
+            border: 4px solid yellowgreen;
+            padding: 30ox;
+            width: 400px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p id="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam erat et nunc maximus, non fermentum mi semper. 
+        Cras rhoncus dolor vel pretium convallis. Aenean quis orci pretium, ultrices ex vitae, congue nulla. 
+        Aliquam et auctor nunc, non luctus felis. Proin varius justo sit amet augue suscipit tempus. 
+        Morbi bibendum porta eleifend. Curabitur egestas aliquam nunc, eu laoreet sem lacinia luctus.
+    </p>
+    <p id="second">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam erat et nunc maximus, non fermentum mi semper. 
+        Cras rhoncus dolor vel pretium convallis. Aenean quis orci pretium, ultrices ex vitae, congue nulla. 
+        Aliquam et auctor nunc, non luctus felis. Proin varius justo sit amet augue suscipit tempus. 
+        Morbi bibendum porta eleifend. Curabitur egestas aliquam nunc, eu laoreet sem lacinia luctus.
+    </p>
+    <p id="third">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam erat et nunc maximus, non fermentum mi semper. 
+        Cras rhoncus dolor vel pretium convallis. Aenean quis orci pretium, ultrices ex vitae, congue nulla. 
+        Aliquam et auctor nunc, non luctus felis. Proin varius justo sit amet augue suscipit tempus. 
+        Morbi bibendum porta eleifend. Curabitur egestas aliquam nunc, eu laoreet sem lacinia luctus.
+    </p>
+    <p class="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam erat et nunc maximus, non fermentum mi semper. 
+        Cras rhoncus dolor vel pretium convallis. Aenean quis orci pretium, ultrices ex vitae, congue nulla. 
+        Aliquam et auctor nunc, non luctus felis. Proin varius justo sit amet augue suscipit tempus. 
+        Morbi bibendum porta eleifend. Curabitur egestas aliquam nunc, eu laoreet sem lacinia luctus.
+    </p>
+
+
+    <p class="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam erat et nunc maximus, non fermentum mi semper. 
+        Cras rhoncus dolor vel pretium convallis. Aenean quis orci pretium, ultrices ex vitae, congue nulla. 
+        Aliquam et auctor nunc, non luctus felis. Proin varius justo sit amet augue suscipit tempus. 
+        Morbi bibendum porta eleifend. Curabitur egestas aliquam nunc, eu laoreet sem lacinia luctus.
+    </p>
+
+
+
+    
+</body>
+
+<!--<body style="color: #E5E5E5; width: 800px;">
+    <div style="width: 50%; background-color: #404040;">
+        <h1>Main Heading</h1>
+        <p style="width:5em; font-size:20px; background-color:#7F7F7F;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+</body>-->
+</html>

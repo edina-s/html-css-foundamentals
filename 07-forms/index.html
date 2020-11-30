@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <!--primjer 1-->
+    <p>Input text, password</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <label for="name"> Name:</label>
+        <input type="text" id="name"> <!--za unos teksta-->
+        <label for="pass"> Password</label>
+        <input type="password" id="pass"> <!--unos lozinke-->
+
+    </form>
+    <hr>
+
+    <!--primjer 2-->
+    <p>Input radio</p>
+
+    
+    <form action="script.php" method="post" name="demo_form2" id="demo_form2" enctype="multipart/form-data" target="_blank">
+        <input name="country" type="radio" id="Serbia" value="Serbia" checked="checked">
+        <label for="Serbia">Serbia</label>
+        
+        <br>
+        
+        <input name="country" type="radio" id="Romania" value="Romania">
+        <label for="Romania">Romania</label>
+        
+        <br>
+        
+        <input name="country" type="radio" id="Ukraine" value="Ukraine">
+        <label for="Ukraine">Ukraine</label>    
+    </form>        
+    <hr>
+
+    <!--primjer 3-->
+    <p>Checkbox</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <input type="checkbox" name="question" value="Like" id="question">
+        <label for="question">I like HTML</label>
+       <!-- <input type="submit" value="Submit">-->
+    </form> <hr>
+
+    <!--primjer 4-->
+    <p>Input number</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <input type="number" name="quantity" min="1" max="5">
+    </form>
+    <hr>
+
+    <!--primjer 5-->
+    <p>Input color</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <input type="color" name="favcolor">
+
+    </form> <hr>
+
+    <!--primjer 6-->
+    <p>Input range</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <input type="range" name="points" min="0" max="10">
+
+    </form> <hr>
+
+    <!--primjer 7-->
+    <p> Textarea element</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <textarea name="description" id="description">Lorem ipsum dolor sit amet.</textarea>
+
+    </form> <hr>
+
+    <!--primjer 8-->
+    <p>dugme</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <button type="button">
+            <img src="images/slika.jpg" alt="button" width="180" height="100">
+            Finish
+         </button>
+    </form> <hr>
+
+    <!--primjer 8-->
+    <p>Select element</p>
+    <form action="script.php" method="POST" enctype="multipart/form-data " name="demo_form" id="demo-form">
+        <select name="country" id="country">
+            <option value="Serbia">Serbia</option>
+            <option value="Romania" >Romania</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="Bosnia"selected="selected">Bosnia</option>
+            </select>
+    </form> <hr>
+
+    <!--primjer 8-->
+    <p>Grupisanje podataka forme</p>
+    <form action="script.php" method="post" name="demo_form">
+        <fieldset>
+            <legend>Personal info</legend>
+            <label for="name">First name:</label><br>
+            <input type="text" name="name" id="name"><br>
+     
+            <label for="surname">Last name:</label><br>
+            <input type="text" name="surname" id="surname"><br>
+        </fieldset>
+         
+        <fieldset>
+            <legend>Contact</legend>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email"><br>
+     
+            <label for="phone">Phone:</label><br>
+            <input type="text" name="phone" id="phone">
+        </fieldset>
+        </form>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Tables</title>
+</head>
+<body>
+    <!--Primjer 1-->
+    <p>Obična tabela</p>
+    <table border="1"> <!--border- okvir tabele -->
+        <tr>  <!-- Redovi tabele -->
+            <td>1</td> <!--ćelije-->
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Primjer 2 (Naslovne ćelije)-->
+    <p>Naslovne ćelije</p>
+    <table border="1">
+        <tr>
+          <th>*</th>
+          <th>monday</th>
+          <th>tuesday</th>
+          <th>wednesday</th>
+          <th>thursday</th>
+          <th>friday</th>
+        </tr>
+        <tr>
+          <th>morning</th>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <th>evening</th>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+       
+    </table>
+    <hr>
+
+    <!--Primjer 3 (Spajanje ćelija horizontalno)-->
+    <p>Spajanje ćelija horizontalno</p>
+    <table border="1">
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td colspan="2">4</td> <!--horizontalno-->
+          <td>6</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Primjer 4 (Spajanje ćelija vertikalno)-->
+    <p>Spajanje ćelija vertikalno</p>  
+    <table border="1">
+        <tr>
+          <td rowspan="2">1</td> <!--vertikalno-->
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Primjer 5 (Regioni tabela)-->
+    <p>Regioni tabela</p>
+    <table>
+      <thead>
+        <tr>
+          <td>header cell</td>
+        </tr>
+        <tr>
+          <td>header cell</td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>footer cell</td>
+        </tr>
+        <tr>
+          <td>footer cell</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>body cell</td>
+        </tr>
+        <tr>
+          <td>body cell</td>
+        </tr>
+      </tbody>
+      
+   </table>
+   <hr>
+
+
+</body>
+</html>
