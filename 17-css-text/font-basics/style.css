@@ -1,0 +1,45 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: seagreen;
+}
+
+.serif {
+    font-family: serif;
+    color: rgb(41, 68, 41);
+    font-size: 100px;
+    font-style: oblique; /* Serif+oblique*/
+}
+.sans {
+    font-family: sans-serif;
+    color: green;
+    vertical-align: top; /*Vertikalno poravnjanje*/
+}
+.monospace {
+    font-family: monospace;
+    color: rgba(7, 63, 7, 0.876);
+}
+
+#tezina {
+    font-weight: bolder;
+    font-family: serif;
+    font-style: oblique;
+}
+#paragraf1 {
+    text-align: center;
+    padding: 16px;
+    text-indent: 50px; /*uvlačenje teksta*/
+    letter-spacing: 2px; /*Razmak između karaktera*/
+    word-spacing: 7px; /*Razmak između riječi*/
+    line-height: 30px; /*Razmak između redova*/
+    text-transform: uppercase; /* Sva slova velika*/
+    text-decoration: line-through;
+}
+#paragraf2 {
+    text-transform: lowercase; /* Sva slova mala*/
+    text-decoration: underline; /*Dekoracija teksta(podvlacenje itd.)*/
+
+}
+#paragraf3 {
+    font-weight: bolder;
+    text-shadow: 2px 1px rgba(110, 134, 117, 0.393); /*Senka(vel.horizontalne, vel.vertikalne, boja senke*/
+}
