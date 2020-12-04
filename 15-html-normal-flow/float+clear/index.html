@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float+Clear</title>
+
+    <style>
+
+        /*Primjer postavke box kutija sa lijeve strane horizontalno, box3 float
+        div{
+            width: 200px; 
+            height: 100px; 
+            margin-bottom: 20px; 
+            background-color: #F0C419; 
+        }
+
+        #box3 {
+            float: right;
+            background-color: tomato;
+        } */
+
+        /*div { Div elementi nemaju svoju visinu, tek kada dodamo neki paragraf, visinu ce nam pokazati
+            width: 200px; Širina
+            height: 100px; Visina
+            margin-right: 20px; Donja margina
+            background-color: #F0C419; Boja pozadine kutija
+
+            float: left;
+            
+        }
+
+        p {
+            clear: left; Ukoliko zelimo da se tekst prebaci u novi red ispod kutija
+        } */
+
+            #container1 div {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            background-color: #F0C419;
+
+            float: left;
+        }
+        
+        #container2 {
+            max-width: 400px;
+            height: 230px;
+            margin: 20px;
+            background-color: #ED7161;
+
+            clear: left;
+        }
+        p {
+            margin: 10px;
+        }
+         
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="container1">
+
+        <div id="box1">
+        </div>
+
+        <div id="box2">
+        </div>
+
+        <div id="box3">
+        </div>
+
+        <div id="box4">
+        </div>
+
+        <div id="box5">
+        </div>
+
+        <div id="box6">
+        </div>
+    </div>
+
+    <div id="container2">
+        <p> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis, justo ut feugiat efficitur, 
+            sapien nulla posuere dolor, vitae scelerisque lacus nunc accumsan nisl. Mauris ipsum felis, consectetur 
+            vitae tellus efficitur, lacinia dignissim nibh. Etiam mollis eget dolor in porttitor. 
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis, justo ut feugiat efficitur, 
+            sapien nulla posuere dolor, vitae scelerisque lacus nunc accumsan nisl. Mauris ipsum felis, consectetur 
+            vitae tellus efficitur, lacinia dignissim nibh. Etiam mollis eget dolor in porttitor. 
+        </p>
+    </div>
+
+    
+
+    
+    
+</body>
+</html>
